@@ -100,18 +100,18 @@
 
 		<li>
 			<!-- Blog -->
-			<a href="#" aria-label="Blog" class="group relative inline-flex items-center">
+			<a href="#contact" aria-label="Contact" class="group relative inline-flex items-center">
 				<!-- Icon -->
 				<span
 					class="flex justify-center items-center size-12.5 rounded-md transition-all duration-300 bg-body-bg">
-                    <img src="%BASE%/images/svg/icon-6.svg" alt="Blog"
+                    <img src="%BASE%/images/svg/icon-6.svg" alt="Contact"
 						 class="w-5 opacity-70 transition-all duration-300 group-hover:opacity-100">
                 </span>
 
 				<!-- Tooltip -->
 				<span
 					class="lg:flex hidden absolute left-full ms-4 top-1/2 -translate-y-1/2 whitespace-nowrap rounded-md bg-black px-3 py-1.5 text-sm text-white opacity-0 invisible pointer-events-none z-50 transition-all duration-300 group-hover:opacity-100 group-hover:visible">
-                    Blog
+                    Contact
                 </span>
 			</a>
 		</li>
