@@ -1,0 +1,48 @@
+<?php
+
+$dispatcher = FastRoute\simpleDispatcher(function (FastRoute\RouteCollector $r) {
+	$r->addRoute('GET', '/', function ($ROUTE_PARAMS) {
+		include('pages/index.php');
+	});
+	$r->addRoute('GET', '/blog-detail', function ($ROUTE_PARAMS) {
+		include('pages/blog-detail.php');
+	});
+	$r->addRoute('GET', '/blog-list', function ($ROUTE_PARAMS) {
+		include('pages/blog-list.php');
+	});
+	$r->addRoute('GET', '/error-401', function ($ROUTE_PARAMS) {
+		include('pages/error-401.php');
+	});
+	$r->addRoute('GET', '/error-404', function ($ROUTE_PARAMS) {
+		include('pages/error-404.php');
+	});
+	$r->addRoute('GET', '/privacy-policy', function ($ROUTE_PARAMS) {
+		include('pages/privacy-policy.php');
+	});
+	$r->addRoute('GET', '/work', function ($ROUTE_PARAMS) {
+		include('pages/work.php');
+	});
+
+});
+
+// Fetch method and URI from somewhere
+$httpMethod = $_SERVER['REQUEST_METHOD'];
+$uri = $_SERVER['REQUEST_URI'];
+
+// Strip query string (?foo=bar) and decode URI
+if (false !== $pos = strpos($uri, '?')) {
+	$uri = substr($uri, 0, $pos);
+}
+$uri = rawurldecode($uri);
+
+$routeInfo = $dispatcher->dispatch($httpMethod, $uri);
+switch ($routeInfo[0]) {
+	case FastRoute\Dispatcher::NOT_FOUND:
+		http_response_code(404);
+		die('Not found...');
+		break;
+	case FastRoute\Dispatcher::FOUND:
+		$routeInfo[1]($routeInfo[2]);
+		break;
+}
+    
