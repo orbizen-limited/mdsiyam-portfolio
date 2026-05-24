@@ -7,7 +7,7 @@
 				<!-- Icon -->
 				<span
 					class="flex justify-center items-center size-12.5 rounded-md transition-all duration-300 group-hover:bg-body-bg">
-                    <img src="/php-vite/images/svg/icon-1.svg" alt="Home"
+                    <img src="/public/images/svg/icon-1.svg" alt="Home"
 						 class="w-5 opacity-70 transition-all duration-300 group-hover:opacity-100">
                 </span>
 
@@ -25,7 +25,7 @@
 				<!-- Icon -->
 				<span
 					class="flex justify-center items-center size-12.5 rounded-md transition-all duration-300 group-hover:bg-body-bg">
-                    <img src="/php-vite/images/svg/icon-2.svg" alt="Work"
+                    <img src="/public/images/svg/icon-2.svg" alt="Work"
 						 class="w-5 opacity-70 transition-all duration-300 group-hover:opacity-100">
                 </span>
 
@@ -44,7 +44,7 @@
 				<!-- Icon -->
 				<span
 					class="flex justify-center items-center size-12.5 rounded-md transition-all duration-300 group-hover:bg-body-bg">
-                    <img src="/php-vite/images/svg/icon-3.svg" alt="About"
+                    <img src="/public/images/svg/icon-3.svg" alt="About"
 						 class="w-5 opacity-70 transition-all duration-300 group-hover:opacity-100">
                 </span>
 
@@ -62,7 +62,7 @@
 				<!-- Icon -->
 				<span
 					class="flex justify-center items-center size-12.5 rounded-md transition-all duration-300 group-hover:bg-body-bg">
-                    <img src="/php-vite/images/svg/icon-4.svg" alt="Pricing"
+                    <img src="/public/images/svg/icon-4.svg" alt="Pricing"
 						 class="w-5 opacity-70 transition-all duration-300 group-hover:opacity-100">
                 </span>
 
@@ -80,7 +80,7 @@
 				<!-- Icon -->
 				<span
 					class="flex justify-center items-center size-12.5 rounded-md transition-all duration-300 group-hover:bg-body-bg">
-                    <img src="/php-vite/images/svg/icon-5.svg" alt="Blog"
+                    <img src="/public/images/svg/icon-5.svg" alt="Blog"
 						 class="w-5 opacity-70 transition-all duration-300 group-hover:opacity-100">
                 </span>
 
@@ -104,7 +104,7 @@
 				<!-- Icon -->
 				<span
 					class="flex justify-center items-center size-12.5 rounded-md transition-all duration-300 bg-body-bg">
-                    <img src="/php-vite/images/svg/icon-6.svg" alt="Contact"
+                    <img src="/public/images/svg/icon-6.svg" alt="Contact"
 						 class="w-5 opacity-70 transition-all duration-300 group-hover:opacity-100">
                 </span>
 

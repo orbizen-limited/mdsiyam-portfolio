@@ -16,12 +16,12 @@
 				class="border border-default-950 border-dashed w-px h-full top-0 bottom-0 md:start-3.75 start-2 z-10 absolute opacity-40"></div>
 			<div
 				class="border border-default-950 border-dashed w-px h-full top-0 bottom-0 md:end-3.75 end-2 z-10 absolute opacity-40"></div>
-			<img src="/php-vite/images/svg/shape.svg" alt=""
+			<img src="/public/images/svg/shape.svg" alt=""
 				 class="absolute z-10 -bottom-1.25 w-full h-6 object-cover bg-center">
 
 			<div class="flex flex-col md:gap-7.5 gap-5 md:pt-20 md:pb-12.5 md:px-11.25 pt-12 px-8 pb-10">
 				<div class="lg:w-7/10 mx-auto text-center flex flex-col md:gap-7.5 gap-4">
-					<img src="/freepik_generate-9-different-angl_2857194376.png" style="object-fit:cover;object-position:top;" alt=""
+					<img src="/public/freepik_generate-9-different-angl_2857194376.png" style="object-fit:cover;object-position:top;" alt=""
 						 class="h-15 w-21.25 mx-auto rounded-4xl border border-default-950">
 					<div>
 						<h2 class="md:text-4xl text-[26px]">Get in touch</h2>
@@ -68,7 +68,7 @@
 					<div>Md Siyam &copy; 2025</div>
 
 					<div>
-						<img src="/php-vite/images/svg/barcode.svg" alt="Barcode Image">
+						<img src="/public/images/svg/barcode.svg" alt="Barcode Image">
 					</div>
 				</div>
 			</div>

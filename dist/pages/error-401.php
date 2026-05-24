@@ -28,7 +28,7 @@
 				class="border border-default-950 border-dashed w-px h-full top-0 bottom-0 md:start-3.75 start-2 z-10 absolute opacity-40"></div>
 			<div
 				class="border border-default-950 border-dashed w-px h-full top-0 bottom-0 md:end-3.75 end-2 z-10 absolute opacity-40"></div>
-			<img src="/php-vite/images/svg/shape.svg" alt=""
+			<img src="/public/images/svg/shape.svg" alt=""
 				 class="absolute -bottom-1.25 w-full h-6 object-cover bg-center">
 
 			<div class="lg:p-15 p-5 text-center">

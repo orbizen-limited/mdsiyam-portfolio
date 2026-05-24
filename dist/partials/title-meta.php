@@ -9,4 +9,4 @@
 <meta name="author" content="Md Siyam">
 
 <!-- Favicon icons -->
-<link rel="shortcut icon" href="/php-vite/images/favicon.ico">
+<link rel="shortcut icon" href="/public/images/favicon.ico">

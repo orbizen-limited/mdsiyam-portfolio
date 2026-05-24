@@ -17,9 +17,9 @@
 		<div
 			class="relative z-10 flex flex-col overflow-hidden md:gap-20 gap-10 bg-[linear-gradient(137deg,var(--color-secondary),var(--color-primary)_23%)] md:pt-7.5 md:px-11.25 md:pb-35 pb-22 pt-4 px-6">
 			<div class="grid grid-cols-2 gap-2.5 items-center">
-				<img src="/php-vite/images/avatar/aiden.jpg" alt="Aydem Image" class="rounded-4xl">
+				<img src="/public/images/avatar/aiden.jpg" alt="Aydem Image" class="rounded-4xl">
 				<div class="flex flex-col text-end gap-1.5">
-					<img src="/php-vite/images/svg/globe.svg" alt="Globe Icon" class="w-6.75 h-4.5 ms-auto">
+					<img src="/public/images/svg/globe.svg" alt="Globe Icon" class="w-6.75 h-4.5 ms-auto">
 					<div class="flex flex-col gap-0.5">
 						<div class="font-medium">Based in London, UK</div>
 						<div class="text-default-600 text-nowrap">62.328° N - 15.845° E</div>
@@ -60,7 +60,7 @@
 					<a href="https://unifato.com/"
 					   class="p-0.75 rounded-xl bg-body-bg/40 hover:shadow-[0_0_40px_#0a0a0a4d] transition justify-center items-center inline-flex">
 						<div class="flex items-center gap-2.5 rounded-xl bg-body-bg text-white py-3 px-5.5">
-							<img src="/php-vite/images/svg/prev.svg" loading="eager" alt="Calendar Icon" class="size-3.5">
+							<img src="/public/images/svg/prev.svg" loading="eager" alt="Calendar Icon" class="size-3.5">
 							<div class="font-medium">live preview</div>
 						</div>
 					</a>
@@ -87,7 +87,7 @@
 <section class="lg:pb-37.5 md:pb-25 py-20">
 	<div class="inner-container-small">
 		<div class="flex flex-col gap-12.5">
-			<img src="/php-vite/images/work/01.png" alt="" class="rounded-xl">
+			<img src="/public/images/work/01.png" alt="" class="rounded-xl">
 			<div>
 				<p class="mb-5 text-white/70">Brandora is a boutique creative agency with a bold visual identity. They
 					needed a website that reflected their energy, creativity, and premium positioning—without
@@ -107,12 +107,12 @@
 			</div>
 
 			<div class="grid grid-cols-2 gap-5" data-toggle="gallery">
-				<a href="/php-vite/images/work/gallery-1.png">
-					<img src="/php-vite/images/work/gallery-1.png" alt="Gallery 1" class="rounded-xl">
+				<a href="/public/images/work/gallery-1.png">
+					<img src="/public/images/work/gallery-1.png" alt="Gallery 1" class="rounded-xl">
 				</a>
 
-				<a href="/php-vite/images/work/gallery-2.png">
-					<img src="/php-vite/images/work/gallery-2.png" alt="Gallery 2" class="rounded-xl">
+				<a href="/public/images/work/gallery-2.png">
+					<img src="/public/images/work/gallery-2.png" alt="Gallery 2" class="rounded-xl">
 				</a>
 			</div>
 
@@ -145,7 +145,7 @@
 			<a href="work" class="group">
 				<div class="flex flex-col gap-2 p-2 bg-default-900 rounded-md">
 					<div class="relative overflow-hidden">
-						<img src="/php-vite/images/work/02.png" alt=""
+						<img src="/public/images/work/02.png" alt=""
 							 class="rounded-md group-hover:blur-sm transition-all duration-700 overflow-hidden">
 						<div
 							class="absolute top-1/2 start-1/2 -translate-x-1/2 -translate-y-1/2 rounded-xl bg-primary py-3 px-5.5 opacity-0 group-hover:opacity-100 group-hover:translate-y-1/2 transition-all duration-700">
@@ -169,7 +169,7 @@
 			<a href="work" class="group">
 				<div class="flex flex-col gap-2 p-2 bg-default-900 rounded-md">
 					<div class="relative overflow-hidden">
-						<img src="/php-vite/images/work/03.png" alt=""
+						<img src="/public/images/work/03.png" alt=""
 							 class="rounded-md group-hover:blur-sm transition-all duration-700 overflow-hidden">
 						<div
 							class="absolute top-1/2 start-1/2 -translate-x-1/2 -translate-y-1/2 rounded-xl bg-primary py-3 px-5.5 opacity-0 group-hover:opacity-100 group-hover:translate-y-1/2 transition-all duration-700">

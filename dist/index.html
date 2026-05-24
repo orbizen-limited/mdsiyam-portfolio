@@ -2,16 +2,143 @@
 <html lang="en">
 
 <head>
-	<?php $title = 'Md Siyam - Developer & Business Strategist';
-	include('partials/title-meta.php'); ?>
+	<meta charset="utf-8" />
+<title>Md Siyam - Developer & Business Strategist</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description"
+	  content="Md Siyam ΓÇö App & Web Developer, Business Strategist and Tech Innovator based in Dhaka, Bangladesh. Building scalable software, HealthTech systems and digital products that solve real problems.">
+<meta name="keywords"
+	  content="Md Siyam, full-stack developer, web developer, app developer, business strategist, Bangladesh, HealthTech, Laravel, PHP, system architecture, freelance developer">
+<meta name="author" content="Md Siyam">
 
-	<?php include('partials/head-css.php'); ?>
+<!-- Favicon icons -->
+<link rel="shortcut icon" href="/public/images/favicon.ico">
+	<script type="module" crossorigin src="/public/head-css.php-Rz2mbS2Y.js"></script>
+<link rel="stylesheet" crossorigin href="/public/head-css-T8HMMzm0.css">
 </head>
 
 <body>
 
-<?php include('partials/navbar.php'); ?>
+<div class="lg:ps-5 fixed z-50 lg:top-0 bottom-2 start-0 flex flex-col justify-center lg:w-auto w-full lg:h-200">
+	<ul id="navbar"
+		class="p-2.5 bg-default-900 rounded-xl inline-flex justify-between lg:flex-col gap-2.5 mx-auto lg:w-auto md:w-150 w-auto lg:border-none border border-default-700/30">
+		<li>
+			<!-- Home -->
+			<a href="#hero" aria-label="Home" class="group relative inline-flex items-center">
+				<!-- Icon -->
+				<span
+					class="flex justify-center items-center size-12.5 rounded-md transition-all duration-300 group-hover:bg-body-bg">
+                    <img src="/public/images/svg/icon-1.svg" alt="Home"
+						 class="w-5 opacity-70 transition-all duration-300 group-hover:opacity-100">
+                </span>
 
+				<!-- Tooltip -->
+				<span
+					class="lg:flex hidden absolute left-full ms-4 top-1/2 -translate-y-1/2 whitespace-nowrap rounded-md bg-black px-3 py-1.5 text-sm text-white opacity-0 invisible pointer-events-none z-50 transition-all duration-300 group-hover:opacity-100 group-hover:visible">
+                    Home
+                </span>
+			</a>
+		</li>
+
+		<li>
+			<!-- Work -->
+			<a href="#work" aria-label="Work" class="group relative inline-flex items-center">
+				<!-- Icon -->
+				<span
+					class="flex justify-center items-center size-12.5 rounded-md transition-all duration-300 group-hover:bg-body-bg">
+                    <img src="/public/images/svg/icon-2.svg" alt="Work"
+						 class="w-5 opacity-70 transition-all duration-300 group-hover:opacity-100">
+                </span>
+
+				<!-- Tooltip -->
+				<span
+					class="lg:flex hidden absolute left-full ms-4 top-1/2 -translate-y-1/2 whitespace-nowrap rounded-md bg-black px-3 py-1.5 text-sm text-white opacity-0 invisible pointer-events-none z-50 transition-all duration-300 group-hover:opacity-100 group-hover:visible">
+                    Work
+                </span>
+			</a>
+		</li>
+
+		<li>
+
+			<!-- About -->
+			<a href="#about" aria-label="About" class="group relative inline-flex items-center">
+				<!-- Icon -->
+				<span
+					class="flex justify-center items-center size-12.5 rounded-md transition-all duration-300 group-hover:bg-body-bg">
+                    <img src="/public/images/svg/icon-3.svg" alt="About"
+						 class="w-5 opacity-70 transition-all duration-300 group-hover:opacity-100">
+                </span>
+
+				<!-- Tooltip -->
+				<span
+					class="lg:flex hidden absolute left-full ms-4 top-1/2 -translate-y-1/2 whitespace-nowrap rounded-md bg-black px-3 py-1.5 text-sm text-white opacity-0 invisible pointer-events-none z-50 transition-all duration-300 group-hover:opacity-100 group-hover:visible">
+                    About
+                </span>
+			</a>
+		</li>
+
+		<li>
+			<!-- Pricing -->
+			<a href="#pricing" aria-label="Pricing" class="group relative inline-flex items-center">
+				<!-- Icon -->
+				<span
+					class="flex justify-center items-center size-12.5 rounded-md transition-all duration-300 group-hover:bg-body-bg">
+                    <img src="/public/images/svg/icon-4.svg" alt="Pricing"
+						 class="w-5 opacity-70 transition-all duration-300 group-hover:opacity-100">
+                </span>
+
+				<!-- Tooltip -->
+				<span
+					class="lg:flex hidden absolute left-full ms-4 top-1/2 -translate-y-1/2 whitespace-nowrap rounded-md bg-black px-3 py-1.5 text-sm text-white opacity-0 invisible pointer-events-none z-50 transition-all duration-300 group-hover:opacity-100 group-hover:visible">
+                    Pricing
+                </span>
+			</a>
+		</li>
+
+		<li>
+			<!-- Blog -->
+			<a href="#blog" aria-label="Blog" class="group relative inline-flex items-center">
+				<!-- Icon -->
+				<span
+					class="flex justify-center items-center size-12.5 rounded-md transition-all duration-300 group-hover:bg-body-bg">
+                    <img src="/public/images/svg/icon-5.svg" alt="Blog"
+						 class="w-5 opacity-70 transition-all duration-300 group-hover:opacity-100">
+                </span>
+
+				<!-- Tooltip -->
+				<span
+					class="lg:flex hidden absolute left-full ms-4 top-1/2 -translate-y-1/2 whitespace-nowrap rounded-md bg-black px-3 py-1.5 text-sm text-white opacity-0 invisible pointer-events-none z-50 transition-all duration-300 group-hover:opacity-100 group-hover:visible">
+                    Blog
+                </span>
+			</a>
+		</li>
+
+		<li class="flex">
+			<!-- Divider -->
+			<div
+				class="flex lg:h-px w-full lg:border-t lg:border-s-0 border-s border-default-700/60 border-dashed"></div>
+		</li>
+
+		<li>
+			<!-- Blog -->
+			<a href="#contact" aria-label="Contact" class="group relative inline-flex items-center">
+				<!-- Icon -->
+				<span
+					class="flex justify-center items-center size-12.5 rounded-md transition-all duration-300 bg-body-bg">
+                    <img src="/public/images/svg/icon-6.svg" alt="Contact"
+						 class="w-5 opacity-70 transition-all duration-300 group-hover:opacity-100">
+                </span>
+
+				<!-- Tooltip -->
+				<span
+					class="lg:flex hidden absolute left-full ms-4 top-1/2 -translate-y-1/2 whitespace-nowrap rounded-md bg-black px-3 py-1.5 text-sm text-white opacity-0 invisible pointer-events-none z-50 transition-all duration-300 group-hover:opacity-100 group-hover:visible">
+                    Contact
+                </span>
+			</a>
+		</li>
+	</ul>
+</div>
 <!-- Hero Section -->
 <section id="hero" class="relative">
 	<div class="inner-container-small">
@@ -24,7 +151,7 @@
 					<img src="/public/images/svg/globe.svg" alt="Globe Icon" class="w-6.75 h-4.5 ms-auto">
 					<div class="flex flex-col gap-0.5">
 						<div class="font-medium">Based in Dhaka, BD</div>
-						<div class="text-default-600 text-nowrap">23.710° N - 90.407° E</div>
+						<div class="text-default-600 text-nowrap">23.710┬░ N - 90.407┬░ E</div>
 					</div>
 				</div>
 			</div>
@@ -364,7 +491,7 @@
 					</div>
 
 					<div class="bg-default-900 p-7.5 rounded-lg">
-						<div class="text-base text-white/70">Designing production-ready systems built to scale — from mobile apps to enterprise platforms.
+						<div class="text-base text-white/70">Designing production-ready systems built to scale ΓÇö from mobile apps to enterprise platforms.
 						</div>
 						<div class="my-7.5 border-t border-dashed border-white/20"></div>
 						<div class="text-white/70 mb-2.5">Tech Stack:</div>
@@ -439,7 +566,7 @@
 				<div class="md:pb-12.5 pb-7.5 flex flex-col gap-2.5">
 					<img src="/public/images/timeline/timeline-1.svg" alt="" class="h-6.25 w-25">
 					<h3 class="md:text-xl text-base text-white">Technology Officer</h3>
-					<p class="text-white/70">Building the clinic management platform at Modern Mediks — digitizing prescriptions, patient records and clinical workflows for doctors across Bangladesh.</p>
+					<p class="text-white/70">Building the clinic management platform at Modern Mediks ΓÇö digitizing prescriptions, patient records and clinical workflows for doctors across Bangladesh.</p>
 				</div>
 			</div>
 
@@ -458,7 +585,7 @@
 				<div class="md:pb-12.5 pb-7.5 flex flex-col gap-2.5">
 					<img src="/public/images/timeline/timeline-2.svg" alt="" class="h-6.25 w-25">
 					<h3 class="md:text-xl text-base text-white">IT Director</h3>
-					<p class="text-white/70">Leading software development and IT strategy at Techfrica LLC — automating enterprise workflows and building secure systems for UK-based startups. Fully remote.</p>
+					<p class="text-white/70">Leading software development and IT strategy at Techfrica LLC ΓÇö automating enterprise workflows and building secure systems for UK-based startups. Fully remote.</p>
 				</div>
 			</div>
 
@@ -480,7 +607,7 @@
 					<div class="md:pb-12.5 pb-7.5 flex flex-col gap-2.5">
 						<img src="/public/images/timeline/timeline-3.svg" alt="" class="h-6.25 w-25">
 						<h3 class="md:text-xl text-base text-white">Web Designer &amp; Developer</h3>
-						<p class="text-white/70">Delivered 50+ custom web projects on Fiverr — landing pages, web apps and WordPress sites for clients worldwide.</p>
+						<p class="text-white/70">Delivered 50+ custom web projects on Fiverr ΓÇö landing pages, web apps and WordPress sites for clients worldwide.</p>
 					</div>
 				</div>
 
@@ -499,7 +626,7 @@
 					<div class="md:pb-12.5 pb-7.5 flex flex-col gap-2.5">
 						<img src="/public/images/timeline/timeline-4.svg" alt="" class="h-6.25 w-25">
 						<h3 class="md:text-xl text-base text-white">Head Backend Developer</h3>
-						<p class="text-white/70">Led backend development at House of Change Limited — building scalable server-side systems and modernizing legacy applications.</p>
+						<p class="text-white/70">Led backend development at House of Change Limited ΓÇö building scalable server-side systems and modernizing legacy applications.</p>
 					</div>
 				</div>
 			</div>
@@ -533,7 +660,7 @@
 <section id="award" class="lg:pb-37.5 md:pb-25 pb-15">
 	<div class="inner-container-small">
 		<div class="relative">
-			<div class="font-body-alt text-2xl text-white/70 md:absolute -top-6.5 end-0 md:rotate-10">The “I made this”
+			<div class="font-body-alt text-2xl text-white/70 md:absolute -top-6.5 end-0 md:rotate-10">The ΓÇ£I made thisΓÇ¥
 				moments
 			</div>
 		</div>
@@ -1274,8 +1401,83 @@
 	</div>
 </section>
 
-<?php include('partials/footer.php'); ?>
+<footer id="contact" class="relative lg:pb-15 pb-24">
+	<div class="absolute -top-10 start-1/2 -translate-x-1/2 overflow-hidden">
+		<div class="md:w-200 w-92 mx-auto md:px-7.5 px-5">
+			<div class="md:flex hidden rounded-2xl p-3 bg-default-900 overflow-hidden">
+				<div class="bg-body-bg w-full h-15 overflow-hidden"></div>
+			</div>
+		</div>
+	</div>
 
+	<div class="inner-container-small">
+		<div
+			class="relative z-10 flex flex-col overflow-hidden gap-20 bg-[linear-gradient(137deg,var(--color-secondary),var(--color-primary)_23%)]">
+			<div
+				class="absolute z-10 md:h-15 h-12 w-full start-0 end-0 top-0 bg-linear-to-b to-body-bg/0 via-body-bg/65 from-body-bg"></div>
+			<div
+				class="border border-default-950 border-dashed w-px h-full top-0 bottom-0 md:start-3.75 start-2 z-10 absolute opacity-40"></div>
+			<div
+				class="border border-default-950 border-dashed w-px h-full top-0 bottom-0 md:end-3.75 end-2 z-10 absolute opacity-40"></div>
+			<img src="/public/images/svg/shape.svg" alt=""
+				 class="absolute z-10 -bottom-1.25 w-full h-6 object-cover bg-center">
+
+			<div class="flex flex-col md:gap-7.5 gap-5 md:pt-20 md:pb-12.5 md:px-11.25 pt-12 px-8 pb-10">
+				<div class="lg:w-7/10 mx-auto text-center flex flex-col md:gap-7.5 gap-4">
+					<img src="/public/freepik_generate-9-different-angl_2857194376.png" style="object-fit:cover;object-position:top;" alt=""
+						 class="h-15 w-21.25 mx-auto rounded-4xl border border-default-950">
+					<div>
+						<h2 class="md:text-4xl text-[26px]">Get in touch</h2>
+						<p class="text-default-600">Fill out the form or reach out directly. I'll get back to you within 24 hours.</p>
+					</div>
+
+					<form action="">
+						<div class="flex flex-col gap-1.25 mb-4">
+							<label for="fullname" class="text-default-600 text-start">Name*</label>
+							<input class="bg-white/50 border-0 rounded-md p-3" maxlength="256" name="fullname"
+								   data-name="fullname" placeholder="Your full name" type="text" id="fullname"
+								   required="">
+						</div>
+
+						<div class="flex flex-col gap-1.25 mb-4">
+							<label for="email" class="text-default-600 text-start">Email*</label>
+							<input class="bg-white/50 border-0 rounded-md p-3" maxlength="256" name="Email"
+								   data-name="Email" placeholder="Your email address" type="email" id="email"
+								   required="">
+						</div>
+
+						<div class="flex flex-col gap-1.25 mb-4">
+							<label for="message" class="text-default-600 text-start">Message</label>
+							<textarea id="message" name="Message" maxlength="5000" data-name="Message"
+									  placeholder="Your message" class="bg-white/50 border-0 rounded-md p-3"></textarea>
+						</div>
+						<button class="py-2.5 px-7.5 rounded-md w-full bg-body-bg text-white text-base">Submit</button>
+					</form>
+				</div>
+
+				<div class="border-t border-default-950 border-dashed"></div>
+
+				<div class="flex flex-col text-center md:gap-4 gap-2.5">
+					<div class="text-default-600">Or, let's discuss</div>
+					<a href="tel:+8801312399777" class="md:text-xl text-base hover:underline">+880 131 239 9777</a>
+					<a href="mailto:siyam@doctorshero.com" class="md:text-[26px] text-xl hover:underline">
+						<h3>siyam@doctorshero.com</h3>
+					</a>
+				</div>
+
+				<div class="border-t border-default-950 border-dashed"></div>
+
+				<div class="flex justify-between items-center gap-2.5 flex-wrap">
+					<div>Md Siyam &copy; 2025</div>
+
+					<div>
+						<img src="/public/images/svg/barcode.svg" alt="Barcode Image">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
 </body>
 
 </html>

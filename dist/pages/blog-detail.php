@@ -17,10 +17,10 @@
 		<div
 			class="relative z-10 flex flex-col overflow-hidden md:gap-20 gap-10 bg-[linear-gradient(137deg,var(--color-secondary),var(--color-primary)_23%)] md:pt-7.5 md:px-11.25 md:pb-35 pb-22 pt-4 px-6">
 			<div class="grid grid-cols-2 gap-2.5 items-center">
-				<img src="/php-vite/images/avatar/aiden.jpg" alt="Aydem Image" class="rounded-4xl">
+				<img src="/public/images/avatar/aiden.jpg" alt="Aydem Image" class="rounded-4xl">
 
 				<div class="flex flex-col text-end gap-1.5">
-					<img src="/php-vite/images/svg/globe.svg" alt="Globe Icon" class="w-6.75 h-4.5 ms-auto">
+					<img src="/public/images/svg/globe.svg" alt="Globe Icon" class="w-6.75 h-4.5 ms-auto">
 					<div class="flex flex-col gap-0.5">
 						<div class="font-medium">Based in London, UK</div>
 						<div class="text-default-600 text-nowrap">62.328° N - 15.845° E</div>
@@ -57,7 +57,7 @@
 
 <section class="lg:pb-37.5 md:pb-25 pb-12 pt-20">
 	<div class="inner-container-small">
-		<img src="/php-vite/images/blog/blog-1.png" alt="blog-1" class="rounded-xl mb-10">
+		<img src="/public/images/blog/blog-1.png" alt="blog-1" class="rounded-xl mb-10">
 
 		<div class="md:pe-12.5 pe-5">
 			<p class="md:mb-10 mb-5 text-sm text-white/70">Dark mode started as a visual novelty, but in 2025, it's a UX
@@ -72,7 +72,7 @@
 			<p class="text-white/70 md:mb-10 mb-5 text-sm">On OLED screens, dark pixels use significantly less power.
 				Apps with dark mode can extend device battery life—a small but meaningful improvement in mobile UX.</p>
 		</div>
-		<img src="/php-vite/images/blog/blog-7.png" alt="blog-7" class="rounded-xl mb-10">
+		<img src="/public/images/blog/blog-7.png" alt="blog-7" class="rounded-xl mb-10">
 		<div class="md:pe-12.5 pe-5">
 			<h5 class="lg:text-2xl md:text-xl text-lg text-white mb-2.5">3. Caters to User Preference</h5>
 			<p class="text-white/70 md:mb-10 mb-5 text-sm">Modern users want personalization. Offering light/dark toggle
@@ -93,7 +93,7 @@
 			<div class="bg-default-900 p-5 gap-5 flex items-center group mb-5">
 				<div>
 					<div class="overflow-hidden rounded-md h-25 w-28.75">
-						<img src="/php-vite/images/blog/blog-3.png" alt="blog-3"
+						<img src="/public/images/blog/blog-3.png" alt="blog-3"
 							 class="h-25 w-28.75 rounded-md overflow-hidden group-hover:scale-105 transition-all duration-700">
 					</div>
 				</div>
@@ -111,7 +111,7 @@
 			<div class="bg-default-900 p-5 gap-5 flex items-center group">
 				<div>
 					<div class="overflow-hidden rounded-md h-25 w-28.75">
-						<img src="/php-vite/images/blog/blog-5.png" alt="blog-5"
+						<img src="/public/images/blog/blog-5.png" alt="blog-5"
 							 class="h-25 w-28.75 rounded-md overflow-hidden group-hover:scale-105 transition-all duration-700">
 					</div>
 				</div>

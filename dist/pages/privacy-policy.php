@@ -17,10 +17,10 @@
 		<div
 			class="relative z-10 flex flex-col overflow-hidden md:gap-20 gap-10 bg-[linear-gradient(137deg,var(--color-secondary),var(--color-primary)_23%)] md:pt-7.5 md:px-11.25 md:pb-35 pb-22 pt-4 px-6">
 			<div class="grid grid-cols-2 gap-2.5 items-center">
-				<img src="/php-vite/images/avatar/aiden.jpg" alt="Aydem Image" class="rounded-4xl">
+				<img src="/public/images/avatar/aiden.jpg" alt="Aydem Image" class="rounded-4xl">
 
 				<div class="flex flex-col text-end gap-1.5">
-					<img src="/php-vite/images/svg/globe.svg" alt="Globe Icon" class="w-6.75 h-4.5 ms-auto">
+					<img src="/public/images/svg/globe.svg" alt="Globe Icon" class="w-6.75 h-4.5 ms-auto">
 
 					<div class="flex flex-col gap-0.5">
 						<div class="font-medium">Based in London, UK</div>
