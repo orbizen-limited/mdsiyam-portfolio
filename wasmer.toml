@@ -1,0 +1,18 @@
+[package]
+name = "orbizen-limited/mdsiyam-portfolio"
+version = "1.0.0"
+description = "Md Siyam - Developer & Business Strategist Portfolio"
+
+[dependencies]
+"wasmer-contrib/static-web-server" = "1"
+
+[fs]
+"/public" = "dist"
+
+[[command]]
+name = "server"
+module = "wasmer-contrib/static-web-server:webserver"
+runner = "https://webc.org/runner/wasi"
+
+[command.annotations.wasi]
+env = ["ROOT=/public", "PORT=8080"]
